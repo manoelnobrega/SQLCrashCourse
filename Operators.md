@@ -33,8 +33,14 @@ Less than or equal: <=
 
 
 
-IS or IS NOT: Compare to null (missing data)
+## IS or IS NOT:
 
-IS NOT DISTINCT FROM: Is equal to value or both nulls (missing data)
+Compare to null (missing data)
 
-AS: Used to change a field name when viewing results
+## IS NOT DISTINCT FROM:
+
+Is equal to value or both nulls (missing data)
+
+## AS:
+
+Used to change a field name when viewing results
