@@ -1,4 +1,4 @@
-### SQL Language tools:
+# SQL Language tools:
 
 
 `CREATE DATABASE test;`
@@ -6,19 +6,17 @@
 `DROP DATABASE test;`
 
 
-<p>**Creating a Table in a database:**</p>
+## Creating a Table in a database:
 
 <p><code>CREATE TABLE customers(
 	id INT NOT NULL AUTO_INCREMENT,     //AUTO_INCREMENT is a increment one-by-one
 	firstName VARCHAR(255),   //always separating with a comma
-
 	...
-
 	PRIMARY KEY(id)    //usually attached with the id
 );</code></p>
 
 
-<p>**Inserting data into the table:**</p>
+## Inserting data into the table:
 
 <p><code>INSERT INTO customers(firstName, lastName, email, address, city, state, zipcode) VALUES 
 ('Mike', 'Scott', 'mscott@gmail.com', '22 Birch lane', 'Scranton', 'Pennsylvania', '01913'), 
@@ -28,17 +26,17 @@
 ('David', 'Wallace', 'dwallace@gmail.com', '43 Chambers av', 'Brooklyn', 'New York', '27893');</code></p>
 
 
-<p>**Updating data:**</p>
+## Updating data:
 
 <p><code>UPDATE customers SET email = 'test@gmail.com' WHERE id = 3;</code></p>
 
 
-<p>**Deleting data:**</p>
+## Deleting data:
 
 <p><code>DELETE FROM customers WHERE id = 1;</code></p>
 
 
-<p>**Alter Table:**</p>
+## Alter Table:
 
 <p><code>ALTER TABLE customers ADD testCol VARCHAR(255);</code></p>  //creating a new column
 
@@ -47,7 +45,7 @@
 <p><code>ALTER TABLE customers DROP testCol;</code></p>  //deleting a column
 
 
-Selecting Querys:
+## Selecting Querys:
 
 <p><code>SELECT * FROM customers;</code></p>
 
@@ -62,7 +60,7 @@ Selecting Querys:
 <p><code>SELECT DISTINCT state FROM customers;</code></p>
 
 
-<p>**USEFUL EXAMPLE:**</p>
+## USEFUL EXAMPLE:
 
 <p><code>ALTER TABLE customers ADD COLUMN age INT;</code></p>
 
