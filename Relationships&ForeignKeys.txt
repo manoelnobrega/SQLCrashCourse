@@ -1,0 +1,21 @@
+Run SQL query on database acme:
+
+CREATE TABLE products (
+	id INT NOT NULL AUTO_INCREMENT,
+	name VARCHAR(255),
+    	price INT,
+    	PRIMARY KEY(id)
+);
+
+CREATE TABLE orders (
+	id INT NOT NULL AUTO_INCREMENT,
+	orderNumber INT,
+    	productId INT,
+	customerId INT,
+	orderDate DATETIME default CURRENT_TIMESTAMP,
+    	PRIMARY KEY(id),
+    	FOREIGN KEY(customerId) REFERENCES customers(id),  //creates a foreign key field in the table orders
+    	FOREIGN KEY(productId) REFERENCES products(id)
+);
+
+Basically the purpose of a Foreign Key Field is that we can prevent data corruption on our database
