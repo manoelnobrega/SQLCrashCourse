@@ -1,3 +1,4 @@
+<code>
 Run SQL query on database acme:
 
 CREATE TABLE products (
@@ -17,5 +18,6 @@ CREATE TABLE orders (
     	FOREIGN KEY(customerId) REFERENCES customers(id),  //creates a foreign key field in the table orders
     	FOREIGN KEY(productId) REFERENCES products(id)
 );
+</code>
 
-Basically the purpose of a Foreign Key Field is that we can prevent data corruption on our database
+### Basically the purpose of a Foreign Key Field is that we can prevent data corruption on our database
