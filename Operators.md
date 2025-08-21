@@ -22,14 +22,17 @@ Less than or equal: <=
 
 ## LIKE:
 
-<p><code>SELECT * FROM customers WHERE city LIKE '%n';  //cities that end with 'n'</p></code>
-<p><code>SELECT * FROM customers WHERE city LIKE '%n%';  //cities that has the letter 'n'</p></code>
+<p><code>SELECT * FROM customers WHERE city LIKE '%n';</code><br>
+Cities that end with 'n'</p>
+
+<p><code>SELECT * FROM customers WHERE city LIKE '%n%';</code><br>
+Cities that has the letter 'n'</p>
 
 
 
 ## IN:
 
-<p><code>SELECT * FROM customers WHERE state IN ('New York');</p></code>
+<p><code>SELECT * FROM customers WHERE state IN ('New York');</code></p>
 
 
 

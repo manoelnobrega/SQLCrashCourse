@@ -38,11 +38,14 @@
 
 ## Alter Table:
 
-<p><code>ALTER TABLE customers ADD testCol VARCHAR(255);  //creating a new column</code></p>  
+<p><code>ALTER TABLE customers ADD testCol VARCHAR(255);</code><br>
+Creating a new column</p>  
 
-<p><code>ALTER TABLE customers MODIFY COLUMN testCol INT(11);  //modifying data type of the column</code></p>
+<p><code>ALTER TABLE customers MODIFY COLUMN testCol INT(11);</code><br>
+Modifying data type of the column</p>
 
-<p><code>ALTER TABLE customers DROP testCol;  //deleting a column</code></p>
+<p><code>ALTER TABLE customers DROP testCol;</code><br>
+Deleting a column</p>
 
 
 ## Selecting Querys:
