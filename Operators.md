@@ -1,18 +1,16 @@
 # Operators
 
-Equal to: =
+- Equal to: =
 
-Not Equal to: <> (many DBMSs accept != in addition to <>)
+- Not Equal to: <> (many DBMSs accept != in addition to <>)
 
-Greater than: >
+- Greater than: >
 
-Less than: <
+- Less than: <
 
-Greater than or equal: >=
+- Greater than or equal: >=
 
-Less than or equal: <=
-
-
+- Less than or equal: <=
 
 ## BETWEEN:
 

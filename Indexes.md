@@ -1,16 +1,16 @@
 # Indexes:
 
-> Ares used to speed up querys
+- Ares used to speed up querys
 
-> Is a POINTER to data and a table
+- Is a POINTER to data and a table
 
-> An index in a database is very similar to a index in the back of a book
+- An index in a database is very similar to a index in the back of a book
 
-> Is used to find data more quickly and efficiently
+- Is used to find data more quickly and efficiently
 
-> Users do not see indexes, they are just used to speed up searches/queries
+- Users do not see indexes, they are just used to speed up searches/queries
 
-> Only create indexes on columns (and tables) that will be frequently searched against
+- Only create indexes on columns (and tables) that will be frequently searched against
 
 ### EXAMPLE:
 
