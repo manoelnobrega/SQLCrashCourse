@@ -8,6 +8,8 @@ INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN.
 
 Return all rows when its a least one match in both tables 
 
+[![Joins](/manoelnobrega/SQLCrashCourse/blob/main/Joins.png "Types of Joins")](https://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins)
+
 ### Example:
 <p><code>SELECT custom.firstName, customers.lastName, orders.orderNumber
 	FROM customers

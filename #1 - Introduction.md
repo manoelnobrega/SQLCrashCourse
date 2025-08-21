@@ -15,8 +15,6 @@
 - SQLite
 - dBase
 
-...
-
 ## Tools:
 
 - Command Line Client -> start from a command line creating tables; 
